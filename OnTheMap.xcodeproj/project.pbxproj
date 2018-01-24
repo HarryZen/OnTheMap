@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF89A36C20106BD600DF2FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89A36B20106BD600DF2FAC /* AppDelegate.swift */; };
+		EF89A36E20106BD600DF2FAC /* MKMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89A36D20106BD600DF2FAC /* MKMapViewController.swift */; };
+		EF89A37120106BD600DF2FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF89A36F20106BD600DF2FAC /* Main.storyboard */; };
+		EF89A37320106BD600DF2FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF89A37220106BD600DF2FAC /* Assets.xcassets */; };
+		EF89A37620106BD600DF2FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF89A37420106BD600DF2FAC /* LaunchScreen.storyboard */; };
+		EF89A38420107B7000DF2FAC /* OTMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89A38320107B7000DF2FAC /* OTMClient.swift */; };
+		EF89A38620107B9200DF2FAC /* OTMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89A38520107B9200DF2FAC /* OTMConstants.swift */; };
+		EF89A3882011868100DF2FAC /* OTMConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89A3872011868100DF2FAC /* OTMConvenience.swift */; };
+		EF89A38A2011972F00DF2FAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89A3892011972F00DF2FAC /* LoginViewController.swift */; };
+		EFC4166F20171325003595AE /* PinDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC4166E20171325003595AE /* PinDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF89A36820106BD600DF2FAC /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF89A36B20106BD600DF2FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF89A36D20106BD600DF2FAC /* MKMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewController.swift; sourceTree = "<group>"; };
+		EF89A37020106BD600DF2FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF89A37220106BD600DF2FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF89A37520106BD600DF2FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF89A37720106BD600DF2FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF89A38320107B7000DF2FAC /* OTMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMClient.swift; sourceTree = "<group>"; };
+		EF89A38520107B9200DF2FAC /* OTMConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMConstants.swift; sourceTree = "<group>"; };
+		EF89A3872011868100DF2FAC /* OTMConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMConvenience.swift; sourceTree = "<group>"; };
+		EF89A3892011972F00DF2FAC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EFC4166E20171325003595AE /* PinDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF89A36520106BD600DF2FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF89A35F20106BD600DF2FAC = {
+			isa = PBXGroup;
+			children = (
+				EF89A36A20106BD600DF2FAC /* OnTheMap */,
+				EF89A36920106BD600DF2FAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF89A36920106BD600DF2FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF89A36820106BD600DF2FAC /* OnTheMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF89A36A20106BD600DF2FAC /* OnTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				EF89A36B20106BD600DF2FAC /* AppDelegate.swift */,
+				EF89A36D20106BD600DF2FAC /* MKMapViewController.swift */,
+				EFC4166E20171325003595AE /* PinDetailViewController.swift */,
+				EF89A3892011972F00DF2FAC /* LoginViewController.swift */,
+				EF89A36F20106BD600DF2FAC /* Main.storyboard */,
+				EF89A37220106BD600DF2FAC /* Assets.xcassets */,
+				EF89A37420106BD600DF2FAC /* LaunchScreen.storyboard */,
+				EF89A37720106BD600DF2FAC /* Info.plist */,
+				EF89A38220107B5D00DF2FAC /* OTMClinet */,
+			);
+			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		EF89A38220107B5D00DF2FAC /* OTMClinet */ = {
+			isa = PBXGroup;
+			children = (
+				EF89A38320107B7000DF2FAC /* OTMClient.swift */,
+				EF89A38520107B9200DF2FAC /* OTMConstants.swift */,
+				EF89A3872011868100DF2FAC /* OTMConvenience.swift */,
+			);
+			path = OTMClinet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF89A36720106BD600DF2FAC /* OnTheMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF89A37A20106BD600DF2FAC /* Build configuration list for PBXNativeTarget "OnTheMap" */;
+			buildPhases = (
+				EF89A36420106BD600DF2FAC /* Sources */,
+				EF89A36520106BD600DF2FAC /* Frameworks */,
+				EF89A36620106BD600DF2FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnTheMap;
+			productName = OnTheMap;
+			productReference = EF89A36820106BD600DF2FAC /* OnTheMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF89A36020106BD600DF2FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = harry;
+				TargetAttributes = {
+					EF89A36720106BD600DF2FAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF89A36320106BD600DF2FAC /* Build configuration list for PBXProject "OnTheMap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF89A35F20106BD600DF2FAC;
+			productRefGroup = EF89A36920106BD600DF2FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF89A36720106BD600DF2FAC /* OnTheMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF89A36620106BD600DF2FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF89A37620106BD600DF2FAC /* LaunchScreen.storyboard in Resources */,
+				EF89A37320106BD600DF2FAC /* Assets.xcassets in Resources */,
+				EF89A37120106BD600DF2FAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF89A36420106BD600DF2FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF89A38A2011972F00DF2FAC /* LoginViewController.swift in Sources */,
+				EFC4166F20171325003595AE /* PinDetailViewController.swift in Sources */,
+				EF89A3882011868100DF2FAC /* OTMConvenience.swift in Sources */,
+				EF89A36E20106BD600DF2FAC /* MKMapViewController.swift in Sources */,
+				EF89A38420107B7000DF2FAC /* OTMClient.swift in Sources */,
+				EF89A38620107B9200DF2FAC /* OTMConstants.swift in Sources */,
+				EF89A36C20106BD600DF2FAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF89A36F20106BD600DF2FAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF89A37020106BD600DF2FAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF89A37420106BD600DF2FAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF89A37520106BD600DF2FAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF89A37820106BD600DF2FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF89A37920106BD600DF2FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF89A37B20106BD600DF2FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnTheMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.OnTheMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF89A37C20106BD600DF2FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnTheMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.OnTheMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF89A36320106BD600DF2FAC /* Build configuration list for PBXProject "OnTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF89A37820106BD600DF2FAC /* Debug */,
+				EF89A37920106BD600DF2FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF89A37A20106BD600DF2FAC /* Build configuration list for PBXNativeTarget "OnTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF89A37B20106BD600DF2FAC /* Debug */,
+				EF89A37C20106BD600DF2FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF89A36020106BD600DF2FAC /* Project object */;
+}
