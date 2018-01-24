@@ -24,11 +24,12 @@ class PinDetailViewController: UIViewController, UITableViewDelegate, UITableVie
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tableView.reloadData()
-        print(locations.count)
+        //print(locations.count)
         
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print(locations.count)
         return self.locations.count
     }
     
